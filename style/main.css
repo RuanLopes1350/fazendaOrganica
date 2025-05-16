@@ -1,39 +1,8 @@
-.card-gallery {
+main {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-.card-image {
-    max-width: 100%;
-}
-
-.card {
-    border: 2px solid #50AA5A;
-    border-radius: 8px;
-    max-width: 390px;
-    overflow: hidden;
-    padding: 0;
-}
-
-.card-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44px;
-    width: 100%;
-    background-color: #50AA5A;
-    text-decoration: none;
-    color: #ffffff;
-    margin: 0;
-}
-
-.card-text {
-    margin-left: 16px;
-    margin-right: 20px;
-    margin-top: 13px;
-    margin-bottom: 13px;
-    font-size: 14px;
-    font-weight: 400;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
 }

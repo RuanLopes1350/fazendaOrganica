@@ -1,43 +1,43 @@
-.nav li {
+header li {
     list-style: none;
-    color: white;
 }
 
-.nav ul {
+header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+header ul {
     display: flex;
     flex-direction: row;
     gap: 18px;
     margin-left: 127px;
 }
 
-.nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px; 
-}
-
-.nav {
+header nav {
+    background: rgba(27, 68, 54, 1);
     height: 50px;
     display: flex;
     align-items: center;
-    background-color: #1B4436;
 }
 
-.bannerTexto {
-    color: white;
+.banner p {
     font-size: 48px;
     font-weight: 600;
+    font-family: 'Quicksand';
+    color: rgba(255, 255, 255, 1);
     background: rgba(34, 82, 67, 0.8);
-    padding: 12px 50px 12px 50px;
+    padding: 8px 20px 8px 20px;
+    margin-bottom: 123px;
 }
 
 .banner {
-    background: url(../assets/img/fazenda.png);
-    background-size: cover;
-    background-position: center;
-    height: 399px;
+    background: url(/assets/img/fazenda.png) no-repeat center center;
+    width: 100%;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    gap: 85px;
 }
