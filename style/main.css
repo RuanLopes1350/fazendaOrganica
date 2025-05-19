@@ -5,4 +5,5 @@ main {
     justify-content: space-around;
     margin-left: 120px;
     margin-right: 120px;
+    gap: 45px;
 }
